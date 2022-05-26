@@ -1,0 +1,150 @@
+body{
+	background-color: #393C3C
+}
+
+@media only screen and (min-width : 1224px) {
+
+	div{
+                margin: 5px;
+                border: 1px solid black;
+                font-size: 20px;
+                height: 80px;
+    			}
+
+            #header{ 
+                background: #333;
+                height: 200px
+            }
+
+            #footer{ 
+                background: #333;
+                color: #adc1c9;
+            }
+            #leftSidebar{
+    background: #333;
+    float: left;
+    width: 160px;
+    height: 600px
+}
+#rightSidebar{
+    background: #333;
+    float: right;
+    width: 160px;
+    height: 600px
+}
+#main{
+    background: #333;
+    height: 100%;
+    margin-left: 180px;
+    margin-right: 180px;
+
+    color: #adc1c9;
+    font-size: 15pt
+    height: 200px
+}
+a{
+	color: #adc1c9;
+    font-size: 15pt
+    		} 
+.header-img{
+    width:100%;
+    height:200px;
+    	}
+li{
+    color:#c1e329;
+    margin-left:4px;
+    margin-right: 4px;        
+        }
+.right-img{
+    height:130px;
+    width: 100%
+        }
+.chlimg{
+    margin-left: 10px;
+    width:500px;
+    height:250px
+        }
+dir{
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 10px
+        }
+b, h1{
+    color: #6699CC
+		}
+h1{
+	margin: 10px
+}
+}
+@media only screen and (min-width : 321px) and (max-width: 1223px) {
+
+			
+	div{
+                margin: 10px;
+                border: 1px solid black;
+                font-size: 20px;
+                height: 80px;
+    			}
+	#main{
+    	background: #333;
+    	height: 100%;
+    	margin-left: 200px;
+   	 	margin-right: 200px;
+		color: #adc1c9;
+   		font-size: 15pt
+		}
+    #header{ 
+		background: #333;
+        height: 200px
+
+		}     
+	#footer{ 
+                background: #333;
+                color: #adc1c9;
+            }
+		.chlimg{
+    margin-left: 10px;
+    width:500px;
+    height:250px
+        }       
+	.header-img{
+    	width:100%;
+    	height:200px;
+    	}  
+    dir, a{
+    	font-size: 30px
+    	}  
+    li{
+    	margin-left: 4px;
+    	color:#c1e329;
+    	margin-right: 4px;
+    }
+    a{
+	color: #adc1c9;
+		}
+     #leftSidebar{
+    background: #333;
+    float: left;
+    width: 180px;
+    height: 50%
+		}
+    #rightSidebar{
+    background: #333;
+    float: right;
+    width: 180px;
+    height: 600px
+		}
+    .right-img{
+    height:145px;
+    width:100%;
+    	}
+    	dir{
+    padding: 10px;
+    margin-top: 10px
+        }
+       b, h1{
+    color: #6699CC
+		}
+	h1{
+	margin: 10px
+		}
